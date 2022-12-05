@@ -1,0 +1,34 @@
+Data-Structure: Data-structure are different ways of organizing data on your computer, that can be used effectively.
+
+	Types of Data-Structure: 
+		1. Primitive: Integer, Float, Character, String, Boolean
+		2. Non-primitive: 
+				1. Linear:
+					1. Static: Array
+					2. Dynamic: LinkedList, Stack, Queue
+				2. Non-Linear: Tree, Graph
+
+
+Algorithm: Set of rules for a computer program to accomplish a task.
+
+	Types of Algorithm:
+		1. Simple recursive algo: 
+			A functions calls itself untill it gets desired outcome.
+		2. Divide and conqure algo: 
+			A complex problem is divided into multiple subproblems and these subproblems are solved seperately and after getting solution of all subproblems, we combine result of problem to get result of main problem.
+		3. Dynamic programming algo: 
+			These algo are based on memorization. 
+			They remember the previous outcome and on the basis of previous outcome, they generates current outcome.
+		4. Greedy algo: 
+			A greedy algorithm is an approach for solving a problem by selecting the best option available at the moment. 
+			It doesn't worry whether the current best result will bring the overall optimal result. 
+			The algorithm never reverses the earlier decision even if the choice is wrong. 
+			It works in a top-down approach.
+		5. Bruteforce algo:
+			It simply tries all possibilities until a satisfactory solution is found.
+		6. Randomized algo:
+			Use a random number atleast once during the computation to make a decision.
+
+
+Importance of DSA: Every software receives data in the form of unstructured form, so for arranging data in such a form that we can access data easily and combine data in the form that we can get our desired output. So, all these easy access and processing of data is done with the help of DSA.
+
