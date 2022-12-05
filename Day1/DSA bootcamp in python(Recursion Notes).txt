@@ -1,0 +1,35 @@
+▶ Recursion: Recursion is the way of solving problem in which a function calls itself for solving any particular problem. In recursion, problem is simplified/refined until the desired outcome/result or base condition meets.
+
+	▶ Properties of Recursion:
+		1. Performing the same task multiple times with different inputs.
+		2. In every step we try smaller problem to make problem smaller.
+		3. Base condition is needed because without base condition loop will go infinite.
+
+	▶ Example of Recursion:
+		def factorial(x):
+
+		    if x == 1:
+      		  return 1
+		    else:
+		        return (x * factorial(x-1))
+
+		num = 3
+		print("The factorial of", num, "is", factorial(num))
+
+	▶ Need/Importance of recursion:
+		1. It makes code easier and more effecient.
+		2. These helps us to break down a big/complex problem into subproblems/easier.
+		3. Recursion is used in the data structures like as Trees, Graph.
+		4. It is used in various algo(Greed algo, Dynamic Programming, divide and conquer).
+
+	▶ Working of Recursion: A recursive function is always made of two parts, 
+											one part calls itself and 
+											another part(base condition) helps in getting rid from infinite loop.
+											Ex:
+												def recursiveMethod(parameters):
+													if exit from condition satisfied:
+														return some value
+													else:
+														recursiveMethod(modified parameters)
+
+		▶ In recursion, methods with different inputs get stored into the stack memory until the base condition does not meets true. After the execution of base condition, all methods in stack memory are executed in a linear form.
