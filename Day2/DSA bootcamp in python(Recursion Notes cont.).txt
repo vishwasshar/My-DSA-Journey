@@ -1,0 +1,12 @@
+▶ Difference between recursion and iteration:
+	• In recursion, a function calls itself until base condition while in iteration
+	we execute same code again and again.
+	• For exiting from recursion, we need a base condition but in iteration, we use
+	a variable count(like i<n).
+	• Iteration is space efficient while recursion is not because in Iteration we 
+	does not have any need for stack memory.
+	• Iteration is time efficient while recursion is not because recursion 
+	need more time to push and pop element from stack memory which makes recursion 
+	less time efficient.
+	• Recursion is easy to code so we can use recursion in the case we know that 
+	problem could be divided in subproblems.
